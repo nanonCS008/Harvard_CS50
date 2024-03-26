@@ -4,11 +4,14 @@
 - CS50’s Introduction to Cybersecurity
 - [CS50’s Introduction to Databases with SQL](https://certificates.cs50.io/97b1e601-0d27-47f9-83d5-299675c58448.pdf?size=letter)
 
-## ❗ Warning: Disclaimer
-- The following codes are for educational purposes only and not intended to be used/submitted as your own solutions.
-- Cheating violates the [Academic Honesty](https://cs50.harvard.edu/x/2024/honesty/) of the course, not to mention it's totally pointless if you actually want to learn programming.
+<!-- Warning -->
+> [!WARNING]
+> The following codes are for educational purposes only and not intended to be used/submitted as your own solutions.
+> Cheating violates the [Academic Honesty](https://cs50.harvard.edu/x/2024/honesty/) of the course, not to mention it's totally pointless if you actually want to learn programming.
 
+<!-- Table of contents -->
 ## Table of contents
+<!-- CS50CY - Cybersecurity -->
 ### [CS50CY](/CS50CY%20-%20Cybersecurity/) - [Cybersecurity](https://cs50.harvard.edu/cybersecurity/2023/)
 - [Week 0](/CS50CY%20-%20Cybersecurity/Week%200/) - [Securing Accounts](https://cs50.harvard.edu/cybersecurity/2023/weeks/0/) - [Assigment 0](/CS50CY%20-%20Cybersecurity/Week%200/Assignment%200.txt)
 - [Week 1](/CS50CY%20-%20Cybersecurity/Week%201/) - [Securing Data](https://cs50.harvard.edu/cybersecurity/2023/weeks/1/) - [Assigment 1](/CS50CY%20-%20Cybersecurity/Week%200/Assignment%201.txt)
@@ -17,6 +20,7 @@
 - [Week 4](/CS50CY%20-%20Cybersecurity/Week%204/) - [Preserving Privacy](https://cs50.harvard.edu/cybersecurity/2023/weeks/4/) - [Assigment 4](/CS50CY%20-%20Cybersecurity/Week%200/Assignment%204.txt)
 <!-- - [Final Project]() - [Final Project]() - [Final Project]() -->
 
+<!-- CS50S - SQL -->
 ### [CS50S](/CS50S%20-%20SQL/) - [SQL](https://cs50.harvard.edu/sql/2024/)
 - [Week 0](/CS50S%20-%20SQL/Week%200/) - [Querying](https://cs50.harvard.edu/sql/2024/weeks/0/)
     - [Cyberchase](/CS50S%20-%20SQL/Week%200/cyberchase/)
@@ -48,14 +52,9 @@
     - [Don't Panic! (Sentimental) with Java](/CS50S%20-%20SQL/Week%206/dont-panic-java/)
 - [Final Project](/CS50S%20-%20SQL/Final%20Project/project/) - [Final Project](https://cs50.harvard.edu/sql/2024/project/)
 
-
-## Authors
-
+<!-- Author -->
+## Author
 - [@thekinglion15](https://github.com/thekinglion15)
 
-
+<!-- Logo -->
 ![Logo](https://raw.githubusercontent.com/thekinglion15/encriptadorTexto/main/images/Logo.png)
-
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
