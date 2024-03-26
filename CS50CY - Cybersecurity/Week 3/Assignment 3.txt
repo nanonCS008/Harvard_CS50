@@ -1,0 +1,84 @@
+// 1
+Question: Via what technique(s) might a malicious actor "crack" software (that is,
+          bypass registration/payment to use it)?
+Answer: Keygen, Patch, Loader, Decompilation, Injections, etc.
+
+
+// 2
+Question: Distinguish the nature of two types of "cross-site" attacks we discussed:
+          cross-site scripting (XSS) and cross-site request forgeries (CSRF).
+Answer: While both XSS and CSRF involve manipulating the behavior of web applications, XSS
+        focuses on injecting and executing malicious scripts in the user's browser, while CSRF
+        involves tricking the user's browser into making unauthorized requests to a web application
+        where the victim is authenticated.
+
+
+// 3
+Question: Why do we need to escape certain characters in inputs?
+Answer: Escaping certain characters in inputs is necessary to prevent security vulnerabilities such as
+        cross-site scripting (XSS) attacks. By escaping certain characters, we can ensure that user
+        input is treated as data rather than executable code.
+
+
+// 4
+Question: In the context of SQL, what is a prepared statement?
+Answer: A prepared statement is a precompiled SQL query that can be executed multiple times with
+        different parameters. It is a mechanism used to enhance the efficiency and security of
+        database interactions in applications.
+
+
+// 5
+Question: Why is client-side validation considered "less secure", perhaps, than server-side validation?
+Answer: Client-side validation is known for enhancing user experience by providing immediate
+        feedback. However, it is considered less secure than server-side validation due to its
+        susceptibility to manipulation or bypassing by malicious users. Server-side validation, on the
+        other hand, acts as a more robust and secure layer, ensuring data consistency, enforcing
+        business rules, and preventing the acceptance of malicious or incorrect data.
+
+
+// 6
+Question: Pragmatically, the above comic may be correct as it pertains to the
+          behavior of most users towards open-source software. Even if that is your
+          attitude towards it, why might it still be a good thing to consider using
+          more open-source software (or, developing it), from a security-minded perspective?
+Answer: Open-source software can be a good choice for security-minded users because of its
+        transparency, larger community, flexibility, and reduced likelihood of backdoors. However, it
+        is important to follow best practices for security, as both open-source and closed software
+        can have security vulnerabilities.
+
+
+// 7
+Question: How are package managers similar to app stores (such as Apple's App
+          Store, Google Play Store, Microsoft Store, etc.), from a cybersecurity perspective?
+Answer: They both provide a centralized location for users to download and install software.
+        Additionally, both package managers and app stores often include some level of vetting or
+        validation of the software that is available, which can help to reduce the risk of malware or
+        other security threats.
+
+
+// 8
+Question: What threat does use of Content-Security-Policy fields in our source code help to defend against?
+Answer: Cross-site scripting (XSS) attacks. XSS attacks occur when an attacker can inject malicious
+        scripts into a web application, which can then be executed by the user's browser. CSP fields
+        provide a way for web developers to specify which sources of content are allowed to be
+        loaded by a web page, thereby reducing the risk of XSS attacks.
+
+
+// 9
+Question: Provide a specific example of a situation when you might want to use the
+          HTTP POST method instead of the HTTP GET method.
+Answer: When submitting a form that contains sensitive data, such as personal information.
+
+
+// 10
+Question: More precisely known as CVE-2014-0160 but better known as Heartbleed,
+          the discovery of this exploit caused quite an internet panic in 2014,
+          resulting in one of the first times a bug was actively publicized in mass
+          media outlets, as cybersecurity researchers scrambled to make the public
+          aware of the bug and to encourage rapid download of the fix.
+          Read up on Heartbleed either via the Wikipedia article linked in the previous
+          paragraph, or via any other research you like (such as this video).
+          Why was Heartbleed such a threat to a user's security?
+Answer: Because to its ability to expose sensitive information through a memory leak, the
+        widespread use of the affected OpenSSL library, the difficulty of detecting exploitation, and
+        the need for immediate action to patch vulnerable systems and protect users' data.
