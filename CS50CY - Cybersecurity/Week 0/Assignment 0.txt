@@ -1,0 +1,78 @@
+// 1
+Question: Why might being required to change our passwords regularly actually pose a threat to our security?
+Answer: Changing passwords very frequently can make them easier to forget due to confusion with
+        one of the previous ones, causing them to be waker, among other reasons.
+
+
+// 2
+Question: If I have a six-character password consisting of uppercase (English) letters
+          and (decimal) digits only, how many seconds might it take an adversary to
+          crack, assuming they make one attempt per second?
+Answer: 2176782336
+
+
+// 3
+Question: Humor us for a moment, and play The Password Game, trying to get
+          through at least Rule 12.
+          While obviously the game itself is in many ways meant to be humorous, it
+          also critiques the experience many of us have setting up new passwords.
+          Explain how there's a trade-off between usability and security in the context of passwords.
+Answer: Passwords should be strong, but also easy to remember, to find the balance between
+        usability and security, you can use a combination of upper and lower case letters, digits and
+        symbols, somewhat long, don't use personal information, don't use the same password in
+        everywhere and use a password manager.
+
+
+// 4
+*Consider the below comic (attach) for the next two questions.*
+Question: Consider the top row of the comic above. Why are passwords like those
+          easy (for a computer) to guess but hard (for a human) to remember?
+Answer: Because a computer can make millions of combinations easily, and find the password easily
+        if ther are ahort, for example, "Tr0ub4dor&3" is only 8 characters long and replces "4" with
+        "a" and "3" with "e", which maybe it may be difficult to remember, but easy for the computer to guess.
+
+// 5
+Question: Now consider the bottom row of the comic above. Why are passwords like
+          those hard (for a computer) to guess but easy (for a human) to remember?
+Answer: The password "correct horse battery staple" is 16 characters long and is a random
+        combination of unrelated words, making it harder for the computer to guess, but easier to
+        remember because they are common words.
+
+
+// 6
+Question: What is a "credential stuffing" attack?
+Answer: "Credential stuffing" is a tactic to try to access accounts. Cybercriminals use tools that try
+        combinations of usernames and passwords on different websites and services.
+
+
+// 7
+Question: Provide a specific example of something that would be considered a type
+          of knowledge factor for authentication purposes.
+          Do NOT provide any of your own knowledge factors themselves as an answer to this question.
+Answer: Security question and its answer.
+
+
+// 8
+Question: Provide a specific example of something that would be considered a type
+          of inherence factor for authentication purposes.
+Answer: Fingerprint.
+
+
+// 9
+Question: Why are phishing attacks so difficult to prevent?
+Answer: Phishing attacks are difficult to prevent due to their deceptive nature and the ability of
+        attackers to psychologically manipulate people, these attacks use deception,
+        personalization and the use of social engineering, taking advantage of urgency, fear and
+        lack of victim care.
+
+
+// 10
+Question: Suppose that your boss asks you whether the company should require use
+          of password managers for all employees.
+          Explain in a short paragraph why you might want everyone in the company
+          to use a password manager.
+Answer: Password managers are a very useful tool to improve account security. For one thing, they
+        generate complex passwords securely, making it much harder for cybercriminals to figure
+        them out. On the other hand, they make it easier to manage passwords, so employees don't
+        have to remember them all. This helps prevent them from using weak passwords or reusing
+        them across different sites.
