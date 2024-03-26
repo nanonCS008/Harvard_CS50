@@ -1,0 +1,87 @@
+// 1
+Question: How does the below HTML tag help to protect your privacy online?
+          <meta name="referrer" content="origin"> 
+Answer: By setting the "referrer" meta tag to "origin", the browser is instructed to only send the
+        scheme and hostname in the "referer" header, rather than the full URL.
+
+
+// 2
+Question: What information is transmitted in the User-Agent HTTP header?
+Answer: Information about the browser and device being used to access a website is transmitted.
+
+
+// 3
+Question: We discussed in lecture the concept of private browsing, also known as
+          "incognito mode." What is an advantage of private browsing?
+Answer: One advantage is that it can help protect user privacy by limiting the amount of information
+        that is stored locally on the device.
+
+
+// 4
+Question: Why might a website use session cookies?
+Answer: To maintain the state between the server and the browser.
+
+
+// 5
+Question: Tor is software that you can install on your computer that, according to its
+          website, "prevents someone watching your connection from knowing what
+          websites you visit." How, in no more than a paragraph, does Tor do that?
+Answer: Tor is a software that provides anonymous communication by routing internet traffic
+        through a series of servers maintained by volunteers worldwide. When a user sends a
+        request through Tor, it's encrypted and routed through a randomly selected path of servers.
+        Each server knows only the previous and next server in the path, making it difficult to trace
+        the origin or destination of the request. Tor's onion routing protocol encrypts data multiple
+        times, ensuring end-to-end security. This process protects user privacy by hiding their
+        location and browsing activity from potential eavesdroppers.
+
+
+// 6
+Question: In what sense are domain names similar to phone numbers like 1-800-COLLECT or 1-800-FLOWERS?
+Answer: Both domain names and mnemonic phone numbers serve as human-friendly identifiers for
+        accessing specific resources or services. They are easy to remember and are mapped to
+        particular destinations.
+
+
+// 7
+Question: Google Chrome - User Profiles
+          NordVPN critiques Chrome (63% market share,  ⭐⭐ privacy rating) on the basis that
+          one of Google's primary sources of revenue is "user profiling for ad targeting". 
+          How is Chrome able to put together a user profile for that purpose?
+Answer: Chrome's ability to put together a user profile for ad targeting relies on the collection of
+        browsing data, tracking mechanisms, Google Account integration, and the use of aggregate
+        data analysis to understand user behavior and preferences.
+
+
+// 8
+Question: Safari - Fingerprinting
+          Safari (20% market share, ⭐⭐⭐ privacy rating) receives some praise in the article
+          for its use of "anti-fingerprinting tools".
+          What is fingerprinting?
+Answer: Fingerprinting is a technique used to identify and track users online based on various
+        characteristics of their web browser and device. This can include information such as the
+        browser version, installed fonts, screen resolution, and other details that can be used to
+        create a unique identifier for each user.
+
+
+// 9
+Question: Edge - Sandboxes
+          Microsoft's Edge (5% market share, ⭐ privacy rating) comes in at the bottom of the
+          NordVPN list, unfortunately, but receives credit for running in a "sandbox". Why is this a
+          good thing for end-users?
+Answer: Running a web browser in a sandbox means that it is isolated from the rest of the operating
+        system and other applications, and any malicious activity or malware that is executed within
+        the browser is contained within the sandbox and cannot affect the rest of the system. This
+        is a good thing for end-users because it provides an additional layer of security and
+        protection against potential threats such as phishing attacks, malware, and other online security risks.
+
+
+// 10
+Question: In lecture, we discussed the above example of a standard log format that
+          might be used by a web server to keep track of user activity, where each of
+          the above items prefixed by a $ is effectively a "variable" that will be
+          replaced with user data.
+          What does the $http_referer variable represent?
+Answer: The $http_referer variable in the web server log format represents the URL of the web page
+        that the user was on before clicking a link to the current page. It is sent as part of the HTTP
+        headers with each request, and can be used by web servers to track where users are coming
+        from and how they are navigating between pages.
