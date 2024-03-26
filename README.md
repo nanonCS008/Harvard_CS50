@@ -3,11 +3,13 @@
 ***These are my solutions for CS50 Course***
 - CS50’s Introduction to Cybersecurity
 - [CS50’s Introduction to Databases with SQL](https://certificates.cs50.io/97b1e601-0d27-47f9-83d5-299675c58448.pdf?size=letter)
+<br/>
 
 <!-- Warning -->
 > [!WARNING]
-> The following codes are for educational purposes only and not intended to be used/submitted as your own solutions.
+> The following codes are for educational purposes only and not intended to be used/submitted as your own solutions.<br/>
 > Cheating violates the [Academic Honesty](https://cs50.harvard.edu/x/2024/honesty/) of the course, not to mention it's totally pointless if you actually want to learn programming.
+<br/>
 
 <!-- Table of contents -->
 ## Table of contents
@@ -51,6 +53,7 @@
     - [Don't Panic! (Sentimental) with Python](/CS50S%20-%20SQL/Week%206/dont-panic-python/)
     - [Don't Panic! (Sentimental) with Java](/CS50S%20-%20SQL/Week%206/dont-panic-java/)
 - [Final Project](/CS50S%20-%20SQL/Final%20Project/project/) - [Final Project](https://cs50.harvard.edu/sql/2024/project/)
+<br/>
 
 <!-- Author -->
 ## Author
