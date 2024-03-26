@@ -1,0 +1,75 @@
+// 1
+Question: What type of cybersecurity threat is perhaps most uniquely, given the
+          nature of it, a risk in a research project like SETI@Home, and how might that threat materialize?
+Answer: The primary threat is the potential for malicious actors to exploit vulnerabilities in the
+        software or hardware used by the project. This threat materializes in the form of distributed
+        denial-of-service (DDoS) attacks, where attackers overwhelm the project's servers with a
+        flood of requests, rendering them unable to process legitimate requests.
+
+
+// 2
+Question: What are zero-day attacks and why are they a threat?
+Answer: Zero-day attacks refer to cyberattacks that target vulnerabilities in software, hardware, or
+        firmware that are unknown to the vendor or the public. These attacks are threat because the
+        target organization has no time to develop a defense against them, as they are only
+        discovered after the attack has already occurred.
+
+
+// 3
+Question: What is port scanning and how is it a threat?
+Answer: Port scanning is a method used to determine which ports on a network are open and could
+        be receiving or sending data. It can pose a threat as it can be used by cybercriminals to
+        verify or check the security policies of a network and identify vulnerabilities, which they can
+        then exploit to gain unauthorized access.
+
+
+// 4
+Question: What are supercookies? Via what means do we most commonly
+          obtain/receive them, and how do they create threats to our systems?
+Answer: Supercookies are a type of pseudo-malicious file that tracks online behavior, similar to
+        regular HTTP cookies. They are more difficult to detect and remove because they don't exist
+        in normal cookie storage locations. Supercookies can be obtained/received through two
+        means: Flash cookies (Local Shared Objects or LSOs) and Internet Service Provider (ISP)
+        supercookies. They pose threats to user privacy by enabling extensive tracking across
+        websites and creating detailed user profiles. 
+
+
+// 5
+Question: What makes a worm distinct from a virus?
+Answer: Worms are self-replicating and can spread independently, exploiting vulnerabilities in
+        computer networks without requiring a host file. On the other hand, viruses need a host file
+        to attach themselves to and rely on user interactions to spread. Viruses can carry
+        destructive payloads but may be less noticeable than worms, which tend to cause a more
+        visible impact on network traffic.
+
+
+// 6
+Question: Provide a technological example of "security through obscurity".
+Answer: Hiding network ports by changing their default assignments.
+
+
+// 7
+Question: Distinguish the concepts of SSH and VPN.
+Answer: SSH is focused on secure remote access and command execution on a specific device,
+        while VPNs are more broadly used to create secure and encrypted connections between
+        networks or to provide secure access to resources over the internet.
+
+
+// 8
+Question: What purpose does the X.509 standard serve?
+Answer: The X.509 standard serves as a framework for defining the format and infrastructure of
+        public-key certificates (PKI) that securely associates cryptographic key pairs of public and
+        private keys with websites, individuals, or organizations.
+
+
+// 9
+Question: Why might a company want to perform pen testing?
+Answer: Penetration testing is a proactive and strategic approach to cybersecurity that helps
+        organizations identify, assess, and address vulnerabilities, ultimately enhancing their overall
+        security posture and resilience against cyber threats.
+
+
+// 10
+Question: Of the below HTTP status codes, which most likely suggests that a
+          distributed denial of service (DDoS) attack may be occurring?
+Answer: 503 Service Unavailable
