@@ -60,4 +60,4 @@
 - [@thekinglion15](https://github.com/thekinglion15)
 
 <!-- Logo -->
-![Logo](https://raw.githubusercontent.com/thekinglion15/encriptadorTexto/main/images/Logo.png)
+![Logo](https://github.com/thekinglion15/Harvard_CS50/assets/95191722/edf29df6-c02d-4b06-8a64-57f0904e5be6)
