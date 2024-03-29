@@ -1,8 +1,17 @@
-# My Harvard CS50 Course Code
+<div align=center>
+  <a href="https://cs50.harvard.edu/x/2024/">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Harvard_University_coat_of_arms.svg/800px-Harvard_University_coat_of_arms.svg.png" height=200>
+  </a>
+  <h1>Harvard CS50</h1>
+</div>
+
+<div align=center>
+  <h2>My Harvard CS50 Course Code</h2>
+</div>
 
 ***These are my solutions for CS50 Course***
 - CS50’s Introduction to Cybersecurity
-<!--- CS50’s  -->
+<!-- - CS50’s Introduction to Programming with Python-->
 - [CS50’s Introduction to Databases with SQL](https://certificates.cs50.io/97b1e601-0d27-47f9-83d5-299675c58448.pdf?size=letter)
 <br/>
 
