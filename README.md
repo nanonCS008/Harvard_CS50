@@ -11,7 +11,7 @@
 
 ***These are my solutions for CS50 Course***
 - CS50’s Introduction to Cybersecurity
-<!-- - CS50’s Introduction to Programming with Python-->
+- [CS50’s Introduction to Programming with Python](https://certificates.cs50.io/3178e71a-0177-4289-8e0f-e1e942998be5.pdf?size=letter)
 - [CS50’s Introduction to Databases with SQL](https://certificates.cs50.io/97b1e601-0d27-47f9-83d5-299675c58448.pdf?size=letter)
 <br/>
 
@@ -31,6 +31,21 @@
 - [Week 3](/CS50CY%20-%20Cybersecurity/Week%203/) - [Securing Software](https://cs50.harvard.edu/cybersecurity/2023/weeks/3/)
 - [Week 4](/CS50CY%20-%20Cybersecurity/Week%204/) - [Preserving Privacy](https://cs50.harvard.edu/cybersecurity/2023/weeks/4/)
 <!-- - [Final Project]() - [Final Project]() -->
+<br/>
+
+<!-- CS50P - Python -->
+### [CS50P](/CS50P%20-%20Python/) - [Python](https://cs50.harvard.edu/python/2022/)
+- [Week 0](/CS50P%20-%20Python/Week%200/) - [Functions, Variables](https://cs50.harvard.edu/python/2022/weeks/0/)
+- [Week 1](/CS50P%20-%20Python/Week%201/) - [Conditionals](https://cs50.harvard.edu/python/2022/weeks/1/)
+- [Week 2](/CS50P%20-%20Python/Week%202/) - [Loops](https://cs50.harvard.edu/python/2022/weeks/2/)
+- [Week 3](/CS50P%20-%20Python/Week%203/) - [Exceptions](https://cs50.harvard.edu/python/2022/weeks/3/)
+- [Week 4](/CS50P%20-%20Python/Week%204/) - [Libraries](https://cs50.harvard.edu/python/2022/weeks/4/)
+- [Week 5](/CS50P%20-%20Python/Week%205/) - [Unit Tests](https://cs50.harvard.edu/python/2022/weeks/5/)
+- [Week 6](/CS50P%20-%20Python/Week%206/) - [File I/O](https://cs50.harvard.edu/python/2022/weeks/6/)
+- [Week 7](/CS50P%20-%20Python/Week%207/) - [Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/)
+- [Week 8](/CS50P%20-%20Python/Week%208/) - [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/)
+- [Final Project](/CS50P%20-%20Python/Final%20Project/) - [Final Project](https://cs50.harvard.edu/python/2022/project/)
+<br/>
 
 <!-- CS50S - SQL -->
 ### [CS50S](/CS50S%20-%20SQL/) - [SQL](https://cs50.harvard.edu/sql/2024/)
@@ -44,22 +59,6 @@
 - [Final Project](/CS50S%20-%20SQL/Final%20Project/project/) - [Final Project](https://cs50.harvard.edu/sql/2024/project/)
 <br/>
 
-<!-- CS50P - Python -->
-<!--
-### [CS50P](/CS50S%20-%20Python/) - [Python](https://cs50.harvard.edu/python/2022/)
-- [Week 0](/CS50P%20-%20Python/Week%200/) - [Functions, Variables](https://cs50.harvard.edu/python/2022/weeks/0/)
-- [Week 1](/CS50P%20-%20Python/Week%201/) - [Conditionals](https://cs50.harvard.edu/python/2022/weeks/1/)
-- [Week 2](/CS50P%20-%20Python/Week%202/) - [Loops](https://cs50.harvard.edu/python/2022/weeks/2/)
-- [Week 3](/CS50P%20-%20Python/Week%203/) - [Exceptions](https://cs50.harvard.edu/python/2022/weeks/3/)
-- [Week 4](/CS50P%20-%20Python/Week%204/) - [Libraries](https://cs50.harvard.edu/python/2022/weeks/4/)
-- [Week 5](/CS50P%20-%20Python/Week%205/) - [Unit Tests](https://cs50.harvard.edu/python/2022/weeks/5/)
-- [Week 6](/CS50P%20-%20Python/Week%206/) - [File I/O](https://cs50.harvard.edu/python/2022/weeks/6/)
-- [Week 7](/CS50P%20-%20Python/Week%207/) - [Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/)
-- [Week 8](/CS50P%20-%20Python/Week%208/) - [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/)
-- [Week 9](/CS50P%20-%20Python/Week%209/) - [Et Cetera](https://cs50.harvard.edu/python/2022/weeks/9/)
-- [Final Project](/CS50P%20-%20Python/Final%20Project/project/) - [Final Project](https://cs50.harvard.edu/python/2022/project/)
-<br/>
--->
 <!-- Author -->
 ## Author
 - [@thekinglion15](https://github.com/thekinglion15)
