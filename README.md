@@ -31,7 +31,6 @@
 - [Week 3](/CS50CY%20-%20Cybersecurity/Week%203/) - [Securing Software](https://cs50.harvard.edu/cybersecurity/2023/weeks/3/)
 - [Week 4](/CS50CY%20-%20Cybersecurity/Week%204/) - [Preserving Privacy](https://cs50.harvard.edu/cybersecurity/2023/weeks/4/)
 <!-- - [Final Project]() - [Final Project]() -->
-<br/>
 
 <!-- CS50P - Python -->
 ### [CS50P](/CS50P%20-%20Python/) - [Python](https://cs50.harvard.edu/python/2022/)
@@ -45,7 +44,6 @@
 - [Week 7](/CS50P%20-%20Python/Week%207/) - [Regular Expressions](https://cs50.harvard.edu/python/2022/weeks/7/)
 - [Week 8](/CS50P%20-%20Python/Week%208/) - [Object-Oriented Programming](https://cs50.harvard.edu/python/2022/weeks/8/)
 - [Final Project](/CS50P%20-%20Python/Final%20Project/) - [Final Project](https://cs50.harvard.edu/python/2022/project/)
-<br/>
 
 <!-- CS50S - SQL -->
 ### [CS50S](/CS50S%20-%20SQL/) - [SQL](https://cs50.harvard.edu/sql/2024/)
@@ -57,7 +55,6 @@
 - [Week 5](/CS50S%20-%20SQL/Week%205/) - [Optimizing](https://cs50.harvard.edu/sql/2024/weeks/5/)
 - [Week 6](/CS50S%20-%20SQL/Week%206/) - [Scaling](https://cs50.harvard.edu/sql/2024/weeks/6/)
 - [Final Project](/CS50S%20-%20SQL/Final%20Project/project/) - [Final Project](https://cs50.harvard.edu/sql/2024/project/)
-<br/>
 
 <!-- Author -->
 ## Author
