@@ -1,0 +1,6 @@
+To characterize the audio aura of a listener using their top 100 most played songs from `songs.db`,
+we calculate the average of `energy`, `valence`, and `danceability` of these songs. Based on the provided values:
+
+- Average Energy: 0.65906, indicating a preference for fairly intense and active music.
+- Average Valence: 0.484443, suggesting a balanced mix between positive and negative moods, with a slight tendency towards less cheerful songs.
+- Average Danceability: 0.71646, showing a preference for quite danceable and rhythmic music.
