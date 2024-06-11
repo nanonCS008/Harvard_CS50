@@ -1,0 +1,66 @@
+// 1
+Question: How are MIDI files different from MP3 files for the same song?
+Answer: MIDI files are sequences of musical instructions that do not contain actual audio,
+        while MP3 files are compressed audio recordings.
+
+
+// 2
+Question: What is a keyframe?
+Answer: It´s a key point in an animation sequence where a specific state of an object or
+        character is defined, and is used to create fluid movements and visual effects in animations and videos.
+
+
+// 3
+Question: When might you want to use a GIF instead of a JPEG?
+Answer: Consider using a GIF instead of a JPEG when you need to create simple animations, images with
+        transparency, line art, or when file size is a major concern and you don't need the visual quality
+        that a JPEG offers for more complex images.
+
+
+// 4
+Question: When might you want to use a JPEG instead of a GIF?
+Answer: Consider using a JPEG instead of a GIF when working with photographs, images with smooth gradients,
+        detailed artwork, images for high-quality printing, or any situation where visual quality is a priority
+        and you don't need specific features such as animation or transparency that it offers. the GIF format.
+
+
+// 5
+Question: Let's assume that these images are the same resolution -- 300 pixels by 200 pixels, and both are
+          static (non-video/non-looping) GIFs. Nevertheless, it turns out that the German GIF is smaller
+          (i.e., fewer bytes) than the French GIF. Hypothesize why that might be.
+Answer: Be sure to re-read this stipulation carefully. When you download these images, you may find that the
+        German GIF is bigger, for example (there are different GIF-encoding techniques which can cause this).
+        Nevertheless, we are stipulating that they are both 300x200, and that the German one is smaller,
+        and that should be your assumption in your answer.
+        The German GIF could be smaller than the French GIF due to a more limited color palette that reduces
+        image complexity, simpler patterns or details on the German flag, more efficient compression optimization,
+        and possibly a more efficient arrangement of colors in the palette, resulting in a smaller file size
+        without significantly sacrificing visual quality.
+
+
+// 6
+Question: In the context of RGB color, what is ff00ff, most likely?
+Answer: Magenta
+
+
+// 7
+Question: If an image supports "8-bit color," (roughly) how many colors does it support?
+Answer: 256
+
+
+// 8
+Question: If an image supports "24-bit color," (roughly) how many colors does it support?
+Answer: 16777216
+
+
+// 9
+Question: Why does making an image bigger not make it clearer?
+Answer: Enlarging an image does not make it clearer because you are simply enlarging existing
+        pixels without adding new details or information.
+
+
+// 10
+Question: In what way is a childhood "flip book" like a digital video?
+Answer: A children's flip book and a digital video are similar in that they both use sequences of images,
+        visual storytelling, interactivity and movement elements to capture children's attention and convey
+        content in an engaging and dynamic way.
