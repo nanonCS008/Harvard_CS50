@@ -12,8 +12,11 @@
 ***These are my solutions for CS50 Course***
 - [CS50x](https://cs50.harvard.edu/certificates/be68ffed-db25-4479-8dbc-51119ba581db.pdf?size=letter)
 - CS50’s Introduction to Cybersecurity
+- CS50’s Introduction to Game Development
 - [CS50’s Introduction to Programming with Python](https://certificates.cs50.io/3178e71a-0177-4289-8e0f-e1e942998be5.pdf?size=letter)
 - [CS50’s Introduction to Databases with SQL](https://certificates.cs50.io/97b1e601-0d27-47f9-83d5-299675c58448.pdf?size=letter)
+- [CS50’s Understanding Technology](https://certificates.cs50.io/96ed1488-da87-4923-a6d5-00dbf6200e60.pdf?size=letter)
+- CS50’s Web Programming with Python and JavaScript
 <br/>
 
 <!-- Warning -->
@@ -70,6 +73,15 @@
 - [Week 5](/CS50S%20-%20SQL/Week%205/) - [Optimizing](https://cs50.harvard.edu/sql/2024/weeks/5/)
 - [Week 6](/CS50S%20-%20SQL/Week%206/) - [Scaling](https://cs50.harvard.edu/sql/2024/weeks/6/)
 - [Final Project](/CS50S%20-%20SQL/Final%20Project/project/) - [Final Project](https://cs50.harvard.edu/sql/2024/project/)
+
+<!-- CS50T - Technology -->
+### [CS50T](/CS50T%20-%20Technology/) - [Technology](https://cs50.harvard.edu/technology/2017/)
+- [Week 1](/CS50T%20-%20Technology/Week%201/) - [Hardware](https://cs50.harvard.edu/technology/2017/weeks/1/)
+- [Week 2](/CS50T%20-%20Technology/Week%202/) - [Internet](https://cs50.harvard.edu/technology/2017/weeks/2/)
+- [Week 3](/CS50T%20-%20Technology/Week%203/) - [Multimedia](https://cs50.harvard.edu/technology/2017/weeks/3/)
+- [Week 4](/CS50T%20-%20Technology/Week%204/) - [Security](https://cs50.harvard.edu/technology/2017/weeks/4/)
+- [Week 5](/CS50T%20-%20Technology/Week%205/) - [Web Development](https://cs50.harvard.edu/technology/2017/weeks/5/)
+- [Week 6](/CS50T%20-%20Technology/Week%206/) - [Programming](https://cs50.harvard.edu/technology/2017/weeks/6/)
 
 <!-- Author -->
 ## Author
