@@ -1,0 +1,74 @@
+// 1
+Question: If, like me, you sometimes count using your fingers, odds are you can count up to 5 things
+          on one hand (using 5 fingers). But that's if you're using "unary" notation, whereby you only
+          have a single digit (pun intended) at your disposal, a finger, which you can think of as a 1.
+          Binary, by contrast, allows you to use two digits, 0 and 1. How high could you count on one
+          hand (with 5 fingers) using binary? Assume that a raised finger represents a 1 and a lowered
+          finger represents a 0.
+Answer: 31
+
+
+// 2
+Question: Recall that we looked at ASCII in lecture, which uses just 7 or 8 bits to represent letters
+          of the alphabet. Read up on "Unicode," as via Google, and explain in your own words how Unicode
+          is able to represent many more symbols than can ASCII, which is particularly helpful for written
+          languages with many more characters than English.
+Answer: Unicode is a character encoding standard designed to represent a wide range of symbols and characters
+        from almost all writing systems in the world, overcoming the limitations of ASCII which can only
+        handle 128 or 256 characters. It uses different encoding formats such as UTF-8, UTF-16 and UTF-32,
+        which allow millions of characters to be represented by combinations of 1 to 4 bytes, in contrast
+        to the 7 or 8 bits used by ASCII.
+
+
+// 3
+Question: 01000001 01101110 01110011 01110111 01100101 01110010 00100000
+          01101001 01110011 00100000 00110100 00110010 00101110
+          There's a way to make this meaningful; find it!
+Answer: Answer is 42.
+
+
+// 4
+Question: Describe at least one key difference, other than size/storage capacity, between RAM and hard disk.
+Answer: RAM is extremely fast-access volatile memory, used to store data and programs in active use by
+        the processor, allowing for near-instant operations. In contrast, the hard drive is a much slower,
+        non-volatile memory, suitable for long-term storage of data and programs, with access times that can
+        take milliseconds.
+
+// 5
+Question: Some computers, particularly PCs, come with stickers that say "Intel Inside." What is it that's
+          inside of most computers that's made by Intel? In your own words, what does that hardware do?
+Answer: Inside is the CPU (Central Processing Unit), essential for the operation of the computer. The CPU
+        executes program instructions, performs calculations, and manages the flow of data in the system.
+
+
+// 6
+Question: Roughly how much RAM might a new laptop come with these days?
+          Provide ONE answer, not a range of possible answers.
+Answer: 32 GB
+
+
+// 7
+Question: Roughly how much disk space might a new laptop come with these days?
+          Provide ONE answer, not a range of possible answers.
+Answer: 512 GB
+
+
+// 8
+Question: Name a single device that can be connected to a laptop or desktop via "USB".
+Answer: Printer
+
+
+// 9
+Question: What purpose does a device driver serve?
+Answer: A device driver is software that allows the operating system to communicate with and control
+        a computer's hardware. It acts as a translator between the device and applications or the
+        operating system, ensuring that commands and data are understood and executed correctly by the hardware.
+
+
+// 10
+Question: Even though both are wireless, how does Wi-Fi differ from Bluetooth? You're welcome to Google
+          as needed, but take care to distinguish the two in your own words.
+Answer: Wi-Fi focuses on providing high-speed internet access and local networks, ideal for connecting
+        devices over long distances and transferring large amounts of data. On the other hand, Bluetooth
+        focuses on short-distance connections and low energy consumption, being perfect for linking nearby
+        devices quickly and easily.
