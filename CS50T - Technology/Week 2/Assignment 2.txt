@@ -1,0 +1,60 @@
+// 1
+Question: In a sentence that a non-technical friend or family member would understand, what is the internet?
+Answer: The Internet is like a huge global information and communication network where you can find almost
+        anything and talk to people from all over the world.
+
+
+// 2
+Question: What does it mean if a URL begins with https:// as opposed to http://?
+Answer: It means that the connection between your browser and the website is encrypted and secure.
+
+
+// 3
+Question: What does a DHCP server do?
+Answer: A DHCP server is responsible for automatically assigning IP addresses and other network configuration
+        information to devices that connect to a local network.
+
+
+// 4
+Question: What is the purpose of a subnet mask?
+Answer: Divide an IP network into smaller subnets and manage addressing efficiently. The subnet mask
+        determines what part of an IP address corresponds to the network and what part corresponds to
+        the devices within that network.
+
+
+// 5
+Question: Recall that TCP (tries to) guarantee delivery by ensuring that any lost packets are resent.
+          Provide a *specific* reason why packets may be lost between a sender and receiver when using TCP.
+Answer: Network congestion occurs when there is too much data being sent across the network at the same time,
+        exceeding the capacity of intermediate routers and switches.
+
+
+// 6
+Question: Provide an example of a circumstance where you might prefer that your computer use UDP rather
+          than TCP for sending packets.
+Answer: During a live video stream or real-time voice call, such as video conferencing or VoIP services.
+
+
+// 7
+Question: In what sense are domain names similar to phone numbers like 1-800-COLLECT or 1-800-FLOWERS?
+Answer: In the sense that they both act as easy-to-remember identifiers that translate into underlying
+        technical addresses.
+
+
+// 8
+Question: When a server receives a packet, how does it know whether that packet contains (part of) an email,
+          a request for a website, an instant message, or something else altogether?
+Answer: When a server receives a packet, it knows what type of data it contains thanks to the port numbers
+        included in the packet header.
+
+
+// 9
+Question: Identify a problem that IPv6 is attempting to solve.
+Answer: IPv6 solves IPv4's shortage of unique IP addresses by offering a much larger address space
+        thanks to its 128-bit addresses.
+
+
+// 10
+Question: What elements make up a "packet"?
+Answer: A network packet is made up of a header that contains information such as source and destination
+        addresses, port numbers, and error checking, along with the actual data being transmitted.
