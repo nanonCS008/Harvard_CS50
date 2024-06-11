@@ -1,0 +1,39 @@
+// 1
+Question: Scratch
+Answer: See attached Worldwide project
+
+
+// 2
+Question: Write a program in pseudocode (i.e., step-by-step instructions in English) with which a human
+          (or, if you prefer, a robot) could make a peanut butter and jelly sandwich (correctly).
+Answer: Prepare Bread, Apply Peanut Butter, Apply Jelly, Combine Slices, Slice and Serve
+
+
+// 3
+Question: What is a Boolean expression? Provide an example (in English or pseudocode) of one.
+Answer: A boolean expression is an expression that results in a true or false value.
+        Example:
+        IF (x > 5 AND y < 10) OR z == 15 THEN
+            PRINT "The expression is true."
+        ELSE
+            PRINT "The expression is false."
+        END IF
+
+
+// 4
+Question: What does it mean to compile a program?
+Answer: It means translating source code written in a high-level programming language into a machine
+        language that the computer can directly understand.
+
+
+// 5
+Question: Why do we sometimes break our code out into separate functions, rather than one large program?
+Answer: Breaking code into functions improves modularity, reusability, maintainability, readability,
+        collaboration, testing, and abstraction, making software development more efficient and effective.
+
+
+// 6
+Question: What does it mean for a program to be multithreaded?
+Answer: A multithreaded program is one that can execute multiple tasks concurrently, which can improve
+        application efficiency, performance, and scalability on systems that have multiple processor cores
+        or processing units.
