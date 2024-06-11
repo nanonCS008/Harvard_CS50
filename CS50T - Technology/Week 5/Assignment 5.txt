@@ -1,0 +1,33 @@
+// 1
+Question: Even though HTML is, per its own acronym, a language, why would it be incorrect to call HTML a
+          programming language?
+Answer: HTML is essential for creating web pages, but its function is to structure and present content,
+        not to execute logic or algorithms. For these reasons, although it is a language, it is not a
+        programming language.
+
+
+// 2
+Question: In your own words, what is the action attribute of an HTML form used for?
+Answer: To specify the URL to which the form data will be sent when the user submits it, thus indicating
+        the destination on the server that will process the information provided.
+
+
+// 3
+Question: What is a CSS selector?
+Answer: It is a component used to select and apply styles to specific elements of an HTML document.
+
+
+// 4
+Question: Among the HTTP status codes below, which is commonly used to instruct a browser to check its
+          cache for the requested resource?
+Answer: 304
+
+
+// 5
+Question: Among the HTTP status codes below, which suggests a server error rather than a client error?
+Answer: 500
+
+
+// 6
+Question: Dive into HTML
+Answer: **View HTML folder
