@@ -12,7 +12,7 @@
 ***These are my solutions for CS50 Course***
 - [CS50x](https://cs50.harvard.edu/certificates/be68ffed-db25-4479-8dbc-51119ba581db.pdf?size=letter)
 - CS50’s Introduction to Cybersecurity
-- CS50’s Introduction to Game Development
+- [CS50’s Introduction to Game Development](https://certificates.cs50.io/88b7864e-92a6-457c-9632-48b423900788.pdf?size=letter)
 - [CS50’s Introduction to Programming with Python](https://certificates.cs50.io/3178e71a-0177-4289-8e0f-e1e942998be5.pdf?size=letter)
 - [CS50’s Introduction to Databases with SQL](https://certificates.cs50.io/97b1e601-0d27-47f9-83d5-299675c58448.pdf?size=letter)
 - [CS50’s Understanding Technology](https://certificates.cs50.io/96ed1488-da87-4923-a6d5-00dbf6200e60.pdf?size=letter)
@@ -49,6 +49,21 @@
 - [Week 3](/CS50CY%20-%20Cybersecurity/Week%203/) - [Securing Software](https://cs50.harvard.edu/cybersecurity/2023/weeks/3/)
 - [Week 4](/CS50CY%20-%20Cybersecurity/Week%204/) - [Preserving Privacy](https://cs50.harvard.edu/cybersecurity/2023/weeks/4/)
 <!-- - [Final Project]() - [Final Project]() -->
+
+<!-- CS50G - Games -->
+### [CS50G](/CS50G%20-%20Games/) - [Games](https://cs50.harvard.edu/games/2018/)
+- [Week 0](/CS50G%20-%20Games/Week%200/) - [Pong](https://cs50.harvard.edu/games/2018/weeks/0/)
+- [Week 1](/CS50G%20-%20Games/Week%201/) - [Flappy Bird](https://cs50.harvard.edu/games/2018/weeks/1/)
+- [Week 2](/CS50G%20-%20Games/Week%202/) - [Breakout](https://cs50.harvard.edu/games/2018/weeks/2/)
+- [Week 3](/CS50G%20-%20Games/Week%203/) - [Match 3](https://cs50.harvard.edu/games/2018/weeks/3/)
+- [Week 4](/CS50G%20-%20Games/Week%204/) - [Super Mario Bros.](https://cs50.harvard.edu/games/2018/weeks/4/)
+- [Week 5](/CS50G%20-%20Games/Week%205/) - [Legend of Zelda](https://cs50.harvard.edu/games/2018/weeks/5/)
+- [Week 6](/CS50G%20-%20Games/Week%206/) - [Angry Birds](https://cs50.harvard.edu/games/2018/weeks/6/)
+- [Week 7](/CS50G%20-%20Games/Week%207/) - [Pokémon](https://cs50.harvard.edu/games/2018/weeks/7/)
+- [Week 8](/CS50G%20-%20Games/Week%208/) - [Helicopter Game 3D](https://cs50.harvard.edu/games/2018/weeks/8/)
+- [Week 9](/CS50G%20-%20Games/Week%209/) - [Dreadhalls](https://cs50.harvard.edu/games/2018/weeks/9/)
+- [Week 10](/CS50G%20-%20Games/Week%2010/) - [Portal](https://cs50.harvard.edu/games/2018/weeks/10/)
+- [Final Project](/CS50G%20-%20Games/Final%20Project/) - [Final Project](https://cs50.harvard.edu/games/2018/final/)
 
 <!-- CS50P - Python -->
 ### [CS50P](/CS50P%20-%20Python/) - [Python](https://cs50.harvard.edu/python/2022/)
