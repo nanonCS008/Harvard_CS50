@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>School Activities Hub</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<div class="container navbar">
+			<div class="brand">
+				<img src="images/logo.svg" alt="School logo">
+				<span>Riverside High School</span>
+			</div>
+			<nav>
+				<a href="index.html" class="active">Home</a>
+				<a href="activities.html">Activities</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+	<main class="container">
+		<section class="hero">
+			<div>
+				<h1>Discover. Create. Lead.</h1>
+				<p class="lead">Explore a world beyond the classroom. From volunteering and sports to arts and music, our extracurriculars help you build skills, friendships, and memories that last.</p>
+				<div class="cta-group">
+					<a href="activities.html" class="button primary">View Activities</a>
+					<a href="contact.html" class="button secondary">Contact Us</a>
+				</div>
+			</div>
+			<div>
+				<img class="banner" src="images/banner.svg" alt="Students participating in various activities">
+			</div>
+		</section>
+
+		<section class="section">
+			<div class="banner">
+				<strong>Welcome!</strong> Take a look at this semester’s clubs and teams. New members are always welcome.
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer container">
+		<p>&copy; <span id="year"></span> Riverside High School • Extracurricular Activities Hub</p>
+	</footer>
+
+	<script src="app.js"></script>
+	<script>
+		document.getElementById('year').textContent = new Date().getFullYear();
+	</script>
+</body>
+</html>
