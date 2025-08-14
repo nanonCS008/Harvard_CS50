@@ -90,7 +90,7 @@ app.post('/api/contact', (req, res) => {
 });
 
 // Fallback to index.html for unknown routes (SPA-like behavior)
-app.get('*', (req, res) => {
+app.use((req, res) => {
   res.sendFile(path.join(publicDir, 'index.html'));
 });
 

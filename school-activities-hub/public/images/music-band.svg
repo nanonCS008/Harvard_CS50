@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="400" viewBox="0 0 800 400">
+	<rect width="800" height="400" rx="16" fill="#e1f5fe"/>
+	<circle cx="160" cy="200" r="80" fill="#039be5"/>
+	<text x="360" y="210" font-family="Inter,Arial" font-weight="700" font-size="28" fill="#0277bd">Music Band</text>
+</svg>
