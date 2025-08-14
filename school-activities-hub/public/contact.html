@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact • School Activities Hub</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<div class="container navbar">
+			<div class="brand">
+				<img src="images/logo.svg" alt="School logo">
+				<span>Riverside High School</span>
+			</div>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="activities.html">Activities</a>
+				<a href="contact.html" class="active">Contact</a>
+			</nav>
+		</div>
+	</header>
+
+	<main class="container">
+		<section class="section">
+			<h1>Contact Us</h1>
+			<p class="lead">Have a question about a club or activity? Reach out and we'll get back to you.</p>
+			<div class="grid" style="grid-template-columns: 1.2fr 1fr;">
+				<form id="contact-form" class="form" novalidate>
+					<div class="row">
+						<div>
+							<label for="name">Name</label>
+							<input id="name" name="name" required>
+						</div>
+						<div>
+							<label for="email">Email</label>
+							<input id="email" name="email" type="email" required>
+						</div>
+					</div>
+					<div>
+						<label for="message">Message</label>
+						<textarea id="message" name="message" rows="5" required></textarea>
+					</div>
+					<div id="contact-status" aria-live="polite"></div>
+					<div style="margin-top: 12px;">
+						<button class="button primary" type="submit">Send Message</button>
+					</div>
+				</form>
+
+				<div>
+					<div class="form">
+						<h3>School Contact</h3>
+						<p><strong>Address:</strong> 123 Riverside Ave, Hometown</p>
+						<p><strong>Phone:</strong> (555) 123-4567</p>
+						<p><strong>Email:</strong> activities@school.edu</p>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer class="footer container">
+		<p>&copy; <span id="year"></span> Riverside High School • Extracurricular Activities Hub</p>
+	</footer>
+
+	<script src="app.js"></script>
+	<script>
+		document.getElementById('year').textContent = new Date().getFullYear();
+		App.attachContactFormHandler();
+	</script>
+</body>
+</html>
