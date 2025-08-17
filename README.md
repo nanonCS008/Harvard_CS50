@@ -104,3 +104,82 @@
 
 <!-- Logo -->
 ![Logo](https://github.com/thekinglion15/Harvard_CS50/assets/95191722/edf29df6-c02d-4b06-8a64-57f0904e5be6)
+
+# Amnuaysilpa Extracurricular Hub
+
+A modern web app for browsing and managing student clubs at Amnuaysilpa.
+
+## Tech Stack
+- Next.js 14 (App Router)
+- Prisma ORM
+- NextAuth (Credentials)
+- SQLite (default) / PostgreSQL (prod-ready)
+- Tailwind CSS
+
+## Getting Started (Local)
+1. Copy env file:
+   ```bash
+   cp .env.example .env
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Generate Prisma client and push schema:
+   ```bash
+   npm run db:push
+   ```
+4. Seed sample data:
+   ```bash
+   npm run seed
+   ```
+5. Run the dev server:
+   ```bash
+   npm run dev
+   ```
+6. Open http://localhost:3000
+
+### Test Accounts
+- Leader: 62001@student.amnuaysilpa.ac.th / Password123!
+- Student: 62002@student.amnuaysilpa.ac.th / Password123!
+
+## Major Features
+- Browse clubs with filters by day and category
+- Club details with apply button
+- Student dashboard with joined clubs and announcements
+- Club leader dashboard: approve/reject, manage roles, export CSV, edit profile, post announcements
+- Admin dashboard: view clubs, leaders, and member counts
+
+## Export Members
+Visit `/club-leader` and click Export CSV for your club.
+
+## Deployment
+- Vercel recommended. Set env vars in Vercel Project Settings:
+  - DATABASE_PROVIDER ("postgresql" if using Vercel Postgres)
+  - DATABASE_URL
+  - NEXTAUTH_URL (your production URL)
+  - NEXTAUTH_SECRET (generate a secure value)
+- Run prisma migration or `prisma db push` as a build step if needed.
+
+## Switching to PostgreSQL
+Set in `.env`:
+```
+DATABASE_PROVIDER=postgresql
+DATABASE_URL=postgresql://USER:PASSWORD@HOST:PORT/DB?schema=public
+```
+Run:
+```
+npx prisma migrate deploy
+```
+
+## Add/Manage Clubs without coding
+- Use the Admin dashboard `/admin` to view clubs and leaders.
+- To add a club quickly, you can run Prisma Studio:
+  ```bash
+  npm run prisma:studio
+  ```
+  Then create a `Club` record interactively.
+
+## Notes
+- Email domain restricted to `@student.amnuaysilpa.ac.th` for sign-in.
+- Replace `/public/logo.svg` and club images under `/public/clubs/*` with real assets.

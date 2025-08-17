@@ -1,0 +1,42 @@
+{
+  "name": "amnuaysilpa-extracurricular-hub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio",
+    "db:push": "prisma db push",
+    "seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "autoprefixer": "^10.4.19",
+    "bcryptjs": "^2.4.3",
+    "classnames": "^2.5.1",
+    "date-fns": "^3.6.0",
+    "next": "^14.2.5",
+    "next-auth": "^4.24.7",
+    "postcss": "^8.4.38",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.52.0",
+    "zod": "^3.23.8",
+    "tailwindcss": "^3.4.7"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "dotenv": "^16.4.5",
+    "prisma": "^5.17.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "tsx": "^4.19.1"
+  }
+}
