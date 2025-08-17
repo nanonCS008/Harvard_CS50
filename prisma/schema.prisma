@@ -1,0 +1,73 @@
+// Prisma schema for Amnuaysilpa Extracurricular Hub
+// Database: SQLite by default; can switch to PostgreSQL in production
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String   @id @default(cuid())
+  studentId     String?
+  email         String   @unique
+  name          String?
+  passwordHash  String
+  role          String   @default("STUDENT")
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  memberships   Membership[]
+  applications  Application[]
+}
+
+model Club {
+  id            String   @id @default(cuid())
+  name          String
+  slug          String   @unique
+  description   String
+  category      String
+  meetingDay    String // e.g., Monday
+  meetingTime   String // e.g., 15:30-16:30
+  contactEmail  String
+  advisor       String?
+  imageUrl      String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  memberships   Membership[]
+  applications  Application[]
+  announcements Announcement[]
+}
+
+model Membership {
+  id        String   @id @default(cuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  club      Club     @relation(fields: [clubId], references: [id])
+  clubId    String
+  role      String   @default("STUDENT")
+  createdAt DateTime @default(now())
+
+  @@unique([userId, clubId])
+}
+
+model Application {
+  id        String   @id @default(cuid())
+  user      User     @relation(fields: [userId], references: [id])
+  userId    String
+  club      Club     @relation(fields: [clubId], references: [id])
+  clubId    String
+  status    String   @default("PENDING")
+  createdAt DateTime @default(now())
+}
+
+model Announcement {
+  id        String   @id @default(cuid())
+  club      Club     @relation(fields: [clubId], references: [id])
+  clubId    String
+  title     String
+  content   String
+  createdAt DateTime @default(now())
+}
